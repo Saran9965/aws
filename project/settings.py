@@ -14,7 +14,6 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 SESSION_COOKIE_SECURE = False
 CSRF_COOKIE_SECURE = False
 CSRF_TRUSTED_ORIGINS = ['http://52.55.71.119']
-CSRF_TRUSTED_ORIGINS = ['http://52.55.71.119','https://52.55.71.119']
 
 
 ALLOWED_HOSTS = ['*']
