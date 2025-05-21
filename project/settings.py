@@ -15,7 +15,8 @@ SESSION_COOKIE_SECURE = False
 CSRF_COOKIE_SECURE = False
 
 # Add your public IP with scheme (no port!)
-CSRF_TRUSTED_ORIGINS = ['http://52.55.71.119']
+
+CSRF_TRUSTED_ORIGINS = ['http://52.55.71.119:8000']
 
 # Allow all hosts for dev - restrict in production!
 ALLOWED_HOSTS = ['*']
