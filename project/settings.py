@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config('SECRET_KEY')
 
 # For development, DEBUG=True
-DEBUG = config('DEBUG', default=True, cast=bool)
+DEBUG = True
 
 # Allow cookies over HTTP (not HTTPS)
 SESSION_COOKIE_SECURE = False
