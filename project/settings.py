@@ -13,7 +13,7 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
-CSRF_TRUSTED_ORIGINS = ['https://vconnect-homeservices.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['http://52.55.71.119:8000/']
 
 ALLOWED_HOSTS = ['*']
 # Static and media files
